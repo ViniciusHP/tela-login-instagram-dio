@@ -146,7 +146,7 @@ body {
 }
 
 .instagram-list li a {
-  color: gray;
+  color: rgb(151, 151, 151);
   font-size: 0.9rem;
   line-height: 1.5rem;
 }
