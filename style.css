@@ -44,7 +44,7 @@ body {
   justify-content: space-around;
   flex-direction: column;
   width: 45%;
-  min-height: 38rem;
+  min-height: 38.5rem;
 }
 
 .group {
@@ -110,6 +110,11 @@ body {
   justify-content: center;
   width: 100%;
   padding: 1.3rem 0;
+}
+
+.get-app {
+  color: #3a3a3a;
+  margin-bottom: 0.5rem;
 }
 
 .download {
