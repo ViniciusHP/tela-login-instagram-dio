@@ -31,6 +31,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 50%;
+  overflow: hidden;
 }
 
 .instagram-phone img {
