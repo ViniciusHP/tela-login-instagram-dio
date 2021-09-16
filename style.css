@@ -22,8 +22,8 @@ body {
 .instagram-wrapper {
   display: flex;
   align-items: center;
-  justify-content: start;
-  width: 60%;
+  justify-content: center;
+  max-width: 820px;
 }
 
 .instagram-phone {
@@ -31,6 +31,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 50%;
+  overflow: hidden;
 }
 
 .instagram-phone img {
@@ -42,8 +43,8 @@ body {
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  width: 50%;
-  min-height: 34rem;
+  width: 355px;
+  min-height: 38.5rem;
 }
 
 .group {
@@ -53,16 +54,17 @@ body {
   flex-direction: column;
   background-color: #FFFFFF;
   width: 100%;
-  padding: 1.3rem 0;
+  padding: 1.5rem 0;
   border: 1px solid lightgray;
 }
 
 .group:nth-child(1) {
-  min-height: 19rem;
+  min-height: 22rem;
 }
 
 .instagram-logo {
-  height: 3rem;
+  height: 3.5rem;
+  margin: 1rem 0;
 }
 
 .profile-photo {
@@ -91,6 +93,7 @@ body {
 
 .not-account {
   color: rgb(160, 160, 160);
+  line-height: 1.2rem;
 }
 
 .link-blue {
@@ -106,17 +109,23 @@ body {
   padding: 1.3rem 0;
 }
 
+.get-app {
+  color: #3a3a3a;
+  margin-bottom: 0.5rem;
+}
+
 .download {
   display: flex;
-  width: 100%;
+  width: 90%;
   justify-content: space-evenly;
   align-items: center;
-  padding: 1rem;
+  flex-wrap: wrap;
+  padding: 1rem 0;
 }
 
 .app-download {
   height: 3rem;
-  width: 10rem;
+  width: 10.2rem;
   background-size: cover;
 }
 
@@ -159,17 +168,25 @@ body {
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 858px) {
+  .instagram-phone {
+    display: none;
+  }
+
+  body {
+    justify-content: space-evenly;
+  }
+}
+
+
+@media (max-width: 434px) {
   body {
     background-color: #FFFFFF;
+    justify-content: space-between;
   }
 
   .instagram-wrapper {
     width: 90%;
-  }
-
-  .instagram-phone {
-    display: none;
   }
 
   .instagram-continue {
