@@ -43,7 +43,7 @@ body {
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  width: 45%;
+  width: 355px;
   min-height: 38.5rem;
 }
 
@@ -168,17 +168,25 @@ body {
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 858px) {
+  .instagram-phone {
+    display: none;
+  }
+
+  body {
+    justify-content: space-evenly;
+  }
+}
+
+
+@media (max-width: 434px) {
   body {
     background-color: #FFFFFF;
+    justify-content: space-between;
   }
 
   .instagram-wrapper {
     width: 90%;
-  }
-
-  .instagram-phone {
-    display: none;
   }
 
   .instagram-continue {
