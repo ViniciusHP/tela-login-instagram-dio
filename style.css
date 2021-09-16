@@ -129,7 +129,8 @@ body {
 }
 
 .instagram-footer {
-  max-width: 40%;
+  max-width: 820px;
+  padding: 0 1.5rem;
   margin-bottom: 4rem;
 }
 
