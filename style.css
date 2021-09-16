@@ -44,7 +44,7 @@ body {
   justify-content: space-around;
   flex-direction: column;
   width: 50%;
-  min-height: 34rem;
+  min-height: 38rem;
 }
 
 .group {
@@ -54,16 +54,17 @@ body {
   flex-direction: column;
   background-color: #FFFFFF;
   width: 100%;
-  padding: 1.3rem 0;
+  padding: 1.5rem 0;
   border: 1px solid lightgray;
 }
 
 .group:nth-child(1) {
-  min-height: 19rem;
+  min-height: 22rem;
 }
 
 .instagram-logo {
   height: 3.5rem;
+  margin: 1rem 0;
 }
 
 .profile-photo {
