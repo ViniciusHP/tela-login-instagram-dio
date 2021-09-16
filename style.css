@@ -14,7 +14,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
 }
@@ -24,7 +24,6 @@ body {
   align-items: center;
   justify-content: start;
   width: 60%;
-  height: 100vh;
 }
 
 .instagram-phone {
@@ -131,7 +130,7 @@ body {
 
 .instagram-footer {
   max-width: 40%;
-  padding: 2rem 0 5rem 0;
+  margin-bottom: 4rem;
 }
 
 .instagram-list {
