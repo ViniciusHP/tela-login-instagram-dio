@@ -67,7 +67,3 @@ Este projeto foi construído com as seguintes ferramentas:
 - **[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)**
 - **[CSS (Flexbox)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)**
 - **[Lite-server](https://github.com/johnpapa/lite-server)**
-
-## **Licença**
-
-Este projeto esta sobe a licença [MIT](./LICENSE).
