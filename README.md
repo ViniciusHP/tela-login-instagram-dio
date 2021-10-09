@@ -29,7 +29,7 @@
 ## **Sobre o projeto**
 
 Página de login do Instagram construída no bootcamp [HTML Web Developer](https://digitalinnovation.one/bootcamps/html-web-developer) com a [Digital Innovation One](https://digitalinnovation.one/) e 
-[Gabriela Pinheiro](https://www.linkedin.com/in/gabrielapinheiro129/).[Link para o repositório original.](https://github.com/SpruceGabriela/instagram-dio)
+[Gabriela Pinheiro](https://www.linkedin.com/in/gabrielapinheiro129/). [Link para o repositório original.](https://github.com/SpruceGabriela/instagram-dio)
 
 ## **Adicionais**
 Nesta versão foi acrescentado:
